@@ -26,7 +26,7 @@
             body {
                 margin: auto;
                 width: 750px;
-                height: 1624;
+                height: 1624px;
                 display: grid;
                 justify-content: center;
                 align-content: center;
@@ -34,105 +34,7 @@
                 font-size: 20px;
             }
 
-            span {
-                font-weight: 300;
-                color: hsl(0, 0%, 59%);
-            }
-
-            form h2 {
-                font-size: 1rem;
-                font-weight: 300;
-            }
-
-            form div {
-                display: flex;
-                flex-direction: column;
-                gap: .6rem;
-            }
-
-            form p {
-                display: none;
-                font-style: italic;
-                font-size: .8rem;
-                color: hsl(354, 100%, 66%);
-            }
-
-            input {
-                margin: auto;
-                width: 70%;
-                border: .1rem solid hsl(223, 87%, 53%);
-                border-radius: 2rem;
-                padding: 1rem;
-            }
-
-            form input:nth-child(3) {
-                font-weight: 600;
-                background-color: hsl(223, 87%, 53%);
-                color: hsl(0, 100%, 100%);
-            }
-
-            form input:nth-child(3):hover {
-                cursor: pointer;
-                background-color: hsl(223, 87%, 63%);
-                border-color: hsl(223, 87%, 63%);
-            }
-
         /* CLASS */
-
-            .main,
-            .main form,
-            .social {
-                display: flex;
-            }
-
-            .main,
-            .main form {
-                flex-direction: column;
-            }
-
-            .main {
-                width: 750px;
-                padding: 1rem;
-                gap: 1rem;
-            }
-
-            .main h1 {
-                font-size: 2rem;
-            }
-
-            .main form {
-                padding: .8rem;
-                gap: .8rem;
-            }
-
-            .main img:nth-of-type(1),
-            .main img:nth-of-type(2) {
-                margin: auto;
-            }
-
-            .main img:nth-of-type(1) {
-                width: 20%;
-            }
-
-            .main img:nth-of-type(2) {
-                width: 750px;
-            }
-
-            .social {
-                justify-content: center;
-                gap: 2rem;
-            }
-
-            .social a {
-                text-decoration: none;
-                font-size: 2rem;
-                color: hsl(223, 87%, 63%);
-            }
-
-            .social a:hover {
-                color: hsl(223, 87%, 53%);
-            }
-
         /* ID */
 
     }
