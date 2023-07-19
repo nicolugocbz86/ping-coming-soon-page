@@ -22,7 +22,94 @@
     @media screen and (min-width: 0px) {
 
         /* TAGS */
+
+            body {
+                margin: auto;
+                width: 750px;
+                height: 1624;
+                display: grid;
+                justify-content: center;
+                align-content: center;
+                text-align: center;
+                font-size: 20px;
+            }
+
+            span {
+                font-weight: 300;
+                color: hsl(0, 0%, 59%);
+            }
+
+            form h2 {
+                font-size: 1rem;
+                font-weight: 300;
+            }
+
+            input {
+                margin: auto;
+                width: 70%;
+                border: .1rem solid hsl(223, 87%, 63%);
+                border-radius: 2rem;
+                padding: 1rem;
+            }
+
+            input:nth-of-type(2) {
+                cursor: pointer;
+                background-color: hsl(223, 87%, 63%);
+                color: hsl(0, 100%, 100%);
+            }
+
         /* CLASS */
+
+            .main,
+            .main form,
+            .social {
+                display: flex;
+            }
+
+            .main,
+            .main form {
+                flex-direction: column;
+            }
+
+            .main {
+                width: 750px;
+                padding: 1rem;
+                gap: 1rem;
+            }
+
+            .main h1 {
+                font-size: 2rem;
+            }
+
+            .main form {
+                padding: .8rem;
+                gap: .8rem;
+            }
+
+            .main img:nth-of-type(1),
+            .main img:nth-of-type(2) {
+                margin: auto;
+            }
+
+            .main img:nth-of-type(1) {
+                width: 20%;
+            }
+
+            .main img:nth-of-type(2) {
+                width: 750px;
+            }
+
+            .social {
+                justify-content: center;
+                gap: 2rem;
+            }
+
+            .social a {
+                text-decoration: none;
+                font-size: 2rem;
+                color: hsl(223, 87%, 63%);
+            }
+
         /* ID */
 
     }
@@ -39,5 +126,6 @@
         font-size: 11px;text-align: center;
     }
     .attribution a {
+        text-decoration: none;
         color: hsl(228, 45%, 44%);
     }
