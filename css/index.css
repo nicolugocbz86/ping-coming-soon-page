@@ -130,7 +130,25 @@
     @media screen and (min-width: 401px) {
 
         /* TAGS */
+
+            body {
+                width: 1440px;
+                height: 1024px;
+            }
+
         /* CLASS */
+
+            .main form {
+                margin: auto;
+                flex-direction: row;
+                width: 70%;
+            }
+
+            .main form div,
+            .main form div input {
+                width: 100%;
+            }
+
         /* ID */
 
     }
