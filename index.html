@@ -10,23 +10,31 @@
 </head>
 <body>
     <main class="main">
-        <img src="images/logo.svg" alt="Ping Logo" title="Ping">
-        <h1><span>We are launching</span> soon!</h1>
-        <h2>Subscribe and get notified</h2>
-        <form>
-            <div>
+        <div class="logo_img">
+            <img src="images/logo.svg" alt="Ping Logo" title="Ping">
+        </div>
+        <div class="launching">
+            <h1><span>We are launching</span> soon!</h1>
+            <h2>Subscribe and get notified</h2>
+        </div>
+        <form class="form">
+            <div id="div-alert">
                 <input type="email" name="email-address" id="email-address" placeholder="Your email address..." required>
-                <p id="pAlert">Please provide a valid email address</p>
+                <p id="p-alert">Please provide a valid email address</p>
             </div>
             <input type="submit" value="Notify Me">
         </form>
-        <img src="images/illustration-dashboard.png" alt="Dashboard" title="Dashboard">
+        <div class="dashboard_img">
+            <img src="images/illustration-dashboard.png" alt="Dashboard" title="Dashboard">
+        </div>
         <div class="social">
             <a href="#"><i class="fa-brands fa-facebook"></i></a>
             <a href="#"><i class="fa-brands fa-twitter"></i></a>
             <a href="#"><i class="fa-brands fa-instagram"></i></a>
         </div>
-        <p>&copy; Copyright Ping. All rights reserved.</p>
+        <div class="copyright">
+            <p>&copy; Copyright Ping. All rights reserved.</p>
+        </div>
     </main>
     <footer>
         <p class="attribution">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://github.com/nicolugocbz86" target="_blank">Nicolas Lugo</a>.</p>
